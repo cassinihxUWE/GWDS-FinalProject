@@ -16,6 +16,7 @@ footer {
 }
 
 h1 {
+    padding-top:30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
@@ -34,10 +35,15 @@ h3 {
 }
 
 button {
+    border-radius: 8px;
+    background-color: indigo;
+    padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
     float: center;
-    font-size: x-large;
+    font-size: large;
+    border-color: white;
+    color: white;
 }
 
 /* styles section */
@@ -53,4 +59,16 @@ button {
 }
 .btn-align-center{
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-align-center button {
+    margin-right: 10px;
+    margin-left: 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.designPoster {
+    width: 400px;
 }
