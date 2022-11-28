@@ -15,9 +15,30 @@ footer {
     background-color: indigo;
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    float: center;
+}
+
 /* styles section */
 
-section {
+/* section {
     border: 1px solid black;
     padding: 5px;
+} */
+
+/* homepage styles */
+.title{
+
+}
+.btn-align-center{
+    text-align: center;
+    size: auto;
 }
