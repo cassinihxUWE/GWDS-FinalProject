@@ -12,5 +12,12 @@ main {
 }
 
 footer {
-    background-color: indigo
+    background-color: indigo;
+}
+
+/* styles section */
+
+section {
+    border: 1px solid black;
+    padding: 5px;
 }
