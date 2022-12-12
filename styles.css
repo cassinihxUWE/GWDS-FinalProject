@@ -66,6 +66,18 @@ button {
     padding-right: 20px;
 }
 
+.main-body {
+    display: flex;
+    justify-content: center;
+}
+
 .designPoster {
-    width: 400px;
+    padding-right: 2%;
+    padding-left: 2%;
+    width: 40%;
+}
+.designPoster2 {
+        padding-right: 2%;
+        padding-left: 2%;
+    width: 40%;
 }
