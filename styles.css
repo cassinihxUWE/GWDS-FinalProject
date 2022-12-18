@@ -7,6 +7,10 @@ header {
     background-color: indigo;
 }
 
+.push {
+    margin-left: auto;
+}
+
 main {
     background-color: cadetblue;
 }
@@ -34,16 +38,34 @@ h3 {
     text-align: center;
 }
 
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
 button {
-    border-radius: 8px;
-    background-color: indigo;
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
-    float: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
-    border-color: white;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: 1s;
+}
+
+button:hover {
+    background-color: limegreen;
     color: white;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: darkred;
+    transform: translateY(4px);
 }
 
 /* styles section */
@@ -61,10 +83,7 @@ button {
 } */
 
 /* homepage styles */
-.btn-align-center{
-    text-align: center;
-    padding-bottom: 20px;
-}
+
 
 .btn-align-center button {
     margin-right: 10px;
