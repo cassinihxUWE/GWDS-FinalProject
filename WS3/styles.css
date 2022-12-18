@@ -1,0 +1,19 @@
+body {
+    background-color: purple;
+}
+
+h3,h4,h5,h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-style: italic;
+}
+
+h1{
+    font-style: normal;
+    text-align: right;
+
+}
+
+h2{
+    color:black;
+}
