@@ -15,10 +15,6 @@ main {
     background-color: cadetblue;
 }
 
-footer {
-    background-color: indigo;
-}
-
 h1 {
     padding-top:30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,22 +64,12 @@ button:active {
     transform: translateY(4px);
 }
 
-/* styles section */
-
 .CARPtextbody {
     text-align: center;
     font: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
 }
-
-/* section {
-    border: 1px solid black;
-    padding: 5px;
-} */
-
-/* homepage styles */
-
 
 .btn-align-center button {
     margin-right: 10px;
@@ -107,4 +93,37 @@ button:active {
         padding-left: 2%;
         width: 40%;
 }
+h6 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.button-one-section {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 15px 15px black;
+    width: 70%;
+}
+
+.footer {
+    background-color: purple;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    max-height: 70px;
+    padding-bottom: 5%;
+}
