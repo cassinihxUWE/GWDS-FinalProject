@@ -8,8 +8,8 @@ let myFont; // declaring my font
 
 function preload() { // Preload function to ensure resources avaliable for setup and draw
   soundFormats("mp3"); //defining format of the audio
-  synthTrack = loadSound("/GWDS-FinalProject/JS/p5.js/project/assets/darkdancer.mp3"); //loading the sound from my assets directory
-  myFont = loadFont("/GWDS-FinalProject/JS/p5.js/project/assets/Streamster.otf"); //loading the font from my assets directory
+  synthTrack = loadSound("./JS/p5.js/project/assets/darkdancer.mp3"); //loading the sound from my assets directory
+  myFont = loadFont("./JS/p5.js/project/assets/Streamster.otf"); //loading the font from my assets directory
 } // closing my preload
 
 function setup() { // opening setup function
