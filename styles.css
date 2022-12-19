@@ -93,6 +93,7 @@ button:active {
         padding-left: 2%;
         width: 40%;
 }
+
 h6 {
     color: white;
     display: flex;
@@ -118,6 +119,14 @@ h6 {
     width: 70%;
 }
 
+.container-buttons-worksheet-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
 .footer-button {
     text-align: center;
     padding: 1px;
@@ -136,4 +145,8 @@ h6 {
     justify-content: space-evenly;
     padding-top: 1%;
     padding-bottom: 5%;
+}
+
+ul {
+    list-style: none;
 }
